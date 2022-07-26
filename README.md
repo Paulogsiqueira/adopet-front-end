@@ -8,6 +8,8 @@
 O Projeto foi elaborado como um desafio para os estudantes de front-end da Alura. Nesse projeto os alunos receberam um protótipo no Figma e um calendário com tarefas no Trello.<br>
 Ao todo o projeto durou 4 semanas, e a distribuição das tarefas foi a seguinte:
 <br>
+<br>
+<h2>Cronograma Usado </h2>
 <h3>Semana 1 - Elaboração das telas com a metodologia mobile-first
 <h3>Semana 2 - Adição de responsividade as telas, para Ipad e Desktop
 <h3>Semana 3 e 4 - Validação com expressões regulares, redirecionamento de links e autenticação de senha/confirmaçao
