@@ -1,0 +1,31 @@
+@import url(/css/componentes.css/cabecalho.css);
+@import url(/css/componentes.css/rodape.css);
+@import url(/css/componentes.css/cabecalho-usuario.css);
+
+:root{
+    --azul: #3772FF;
+    --verde: #36D6AD;
+    --vermelho: #FC7071;
+    --rosa: #FCF0E3;
+    --cinza-escuro: #737380;
+    --cinza-medio: #BCBCBC;
+    --cinza-claro: #F7F7F7;
+    --letra-padrao:'Poppins', sans-serif;
+
+}
+
+
+body{
+    background-color: #FFFFFF;
+    color: var(--azul);
+    padding: 0 0;
+    margin: 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--letra-padrao);
+    height: 100%;
+
+
+}
+
+

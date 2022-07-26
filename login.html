@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login │ Adopet</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? família=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2? família=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="cabecalho">
+            <div class="cabecalho__logo"></div>
+            <a href="/index.html"><img class="cabecalho__home-usuario" src="/img/Casa.png" alt="Icone Home"></a>
+            <img class="cabecalho__email" src="/img/Mensagens.png" alt="Icone Email">
+            <img class="cabecalho__patas" src="/img/Patas.png">
+        </div>
+    </header>
+    <main class="login">
+        <div class="login__cabecalho">
+            <img class="login__logo" src="/img/Logo-azul.png" alt="Logo Adopet">
+            <p class="login__titulo">Já tem conta? Faça seu login:</p>
+        </div>
+        <form class="login__formulario" action="/home.html">
+            <label class="login__formulario-titulo">Email</label>
+            <input type="email" class="login__input" placeholder="Insira seu email" required>
+            <label class="login__formulario-titulo">Senha</label>
+            <input type="password" class="login__input senha visualizar" title="A senha deve conter no minimo 6 caracters, deve conter pelo menos uma letra maiúscula, uma letra minúscula e deve conter 1 caracter especial" pattern="^(?=.*[A-Z])(?=.*[!#@$%&])(?=.*[0-9])(?=.*[a-z]).{6,15}$" placeholder="Insira sua senha" required>
+        
+            <div class="login__botoes">
+                <a class="login__senha">Esqueci minha senha</a>
+                <a href="/home.html"><button class="login__botao" type="submit">Entrar</button></a>
+            </div>
+        </form>
+    </main>
+    <footer class="rodape">
+        <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
+    </footer>
+    <script src="/js/validacao-login.js"></script>
+</body>
+</html>

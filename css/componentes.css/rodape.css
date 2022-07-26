@@ -1,0 +1,19 @@
+.rodape{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    background-color: var(--verde);
+    width: 100%;
+    color: #FFFFFF;
+    min-width: 370px;
+
+}
+
+.rodape__texto{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}

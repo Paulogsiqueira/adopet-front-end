@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem │ Contato</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? família=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2? família=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-usuario">
+        <div class="cabecalho-usuario">
+            <img class="cabecalho__splash" src="/img/Superior-Home-Splash.png">
+            <div class="cabecalho__logo"></div>
+            <a href="/home.html"><img class="cabecalho__home-usuario" src="/img/Casa.png" alt="Icone Home"></a>
+            <img class="cabecalho__email-usuario" src="/img/Mensagens.png" alt="Icone Email">
+        </div>
+        <div class="cabecalho__usuario">
+            <a href="/Perfil.html">
+                <img class="cabecalho__perfil-usuario" src="/img/Usuário.png" alt="Icone do Usuario"></a>
+        </div>
+    </header>
+    <main class="contato">
+        <div class="contato__texto"> Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:</div>
+        <form class="contato__formulario">
+            <label class="contato__titulo">Nome</label>
+            <input class="contato__campo" type="text" placeholder="Insira seu nome completo" required>
+            <label class="contato__titulo">Telefone</label>
+            <input class="contato__campo" type="tel" placeholder="Insira seu telefone e/ou whatsapp" required>
+            <label class="contato__titulo">Nome do animal</label>
+            <input class="contato__campo" type="text" placeholder="Por qual animal você se interessou?" required>
+            <label class="contato__titulo">Mensagem</label>
+            <textarea class="contato__mensagem" placeholder="Escreva sua mensagem"></textarea>
+            <button class="contato__botao" >Enviar</button>
+        </form>
+
+
+    </main>
+    <footer class="rodape">
+        <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
+    </footer>
+</body>
+</html>

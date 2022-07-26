@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/perfil.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? família=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2? família=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+    <title>Perfil │ Adopet</title>
+</head>
+<body>
+    <header class="header-usuario">
+        <div class="cabecalho-usuario">
+            <img class="cabecalho__splash" src="/img/Superior-Home-Splash.png">
+            <div class="cabecalho__logo"></div>
+            <a href="/home.html"><img class="cabecalho__home-usuario" src="/img/Casa.png" alt="Icone Home"></a>
+            <img class="cabecalho__email-usuario" src="/img/Mensagens.png" alt="Icone Email">
+        </div>
+        <div class="cabecalho__usuario">
+            <img class="cabecalho__perfil-usuario" src="/img/perfil.png" alt="Icone do Usuario">
+        </div>
+    </header>
+    <main class="perfil">
+        <div class="perfil__texto">Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.</div>
+        <section class="perfil__formulario">
+            <div class="perfil__perfil">Perfil</div>
+            <div class="perfil__titulo--foto">Foto</div>
+            <figure class="perfil__foto">            
+                <img class="perfil__usuario" src="/img/perfil.png" alt="Foto do Usuario">
+                <figcaption class="perfil__legenda">Clique na foto para editar</figcaption>
+            </figure>
+            <form class="perfil__dados" action="/home.html">
+                <label class="perfil__titulo">Nome</label>
+                <input class="perfil__campo" type="text" placeholder="Insira seu nome completo">
+                <label class="perfil__titulo">Telefone</label>
+                <input class="perfil__campo" type="tel" placeholder="Insira seu telefone e/ou whatsapp">
+                <label class="perfil__titulo">Cidade</label>
+                <input class="perfil__campo" type="text" placeholder="Por qual animal você se interessou?">
+                <label class="perfil__titulo">Sobre</label>
+                <textarea class="perfil__mensagem" placeholder="Escreva suma mensagem"></textarea>
+                <button class="perfil__botao" type="submit">Salvar</button>
+            </form>
+
+
+        </section>
+
+
+
+    </main>
+
+    <footer class="rodape">
+        <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
+    </footer>
+</body>
+</html>

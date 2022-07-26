@@ -1,0 +1,158 @@
+body{
+    font-family: var(--letra-padrao);
+    background-image: url(/img/Superior-Home-Splash.png);
+    background-repeat: no-repeat;
+    background-size: 360px;  
+    min-height:100vh;
+    position:relative;  
+    
+}
+
+.cabecalho__patas{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/Esquerda-Splash.png);
+    background-repeat: no-repeat;
+    background-position: left 0px top 320px;
+    flex:1;
+}
+
+.cadastro__cabecalho{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.cadastro__logo{
+    width: 143px;
+    margin: 0em auto;
+    
+}
+.cadastro__texto{
+    text-align: center;
+    padding: 0 3em;
+    margin-bottom: 0;
+}
+.cadastro__formulario{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2em auto;
+
+}
+.cadastro__formulario-titulo{
+    justify-content: center;
+    color: var(--cinza-escuro);
+    line-height: 24px;
+}
+.cadastro__formulario-campo{
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    background: var(--cinza-claro);
+    border-radius: 6px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    height: 40px;
+    margin-bottom: 2em;
+    border: none;
+    text-align: center;
+}
+
+.cadastro__formulario-campo--senha{
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    background: var(--cinza-claro);
+    border-radius: 6px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    height: 40px;
+    margin-bottom: 2em;
+    border: none;
+    text-align: center;
+}
+.cadastro__formulario-campo--senha:last-child{
+    margin-bottom:0;
+}
+
+.cadastro__formulario-campo::placeholder{
+    font-size: 12px;
+    text-align: center;
+    color: var(--cinza-medio);
+}
+.cadastro__formulario-campo--senha::placeholder{
+    font-size: 12px;
+    text-align: center;
+    color: var(--cinza-medio);
+}
+.visualizar::placeholder
+{
+    background-image: url(/img/Vector.png);
+    background-repeat: no-repeat;
+    background-position: right 5px bottom -1px;
+}
+.cadastro__botoes{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+.cadastro__botao{
+    background-color: var(--vermelho);
+    color: #FFFFFF;
+    border-radius: 6px;
+    height: 40px;
+    width: 180px;
+    font-weight: 600;
+    font-family: var(--letra-padrao);
+    border: 1px solid var(--azul);
+    margin-bottom: 8em;
+}
+
+@media screen and (min-width:768px) {
+    body{
+        background-size: 550px;
+    }
+    .cadastro__logo{
+        width: 252px;
+    }
+    
+    .cadastro__cabecalho{
+        margin-top: 150px;
+    }
+    .cadastro{
+        background-image: url(/img/Lateral-direita-splash.png);
+        background-position: right 0px top 200px;
+        background-size: 100px;
+    }
+    .cadastro__texto{
+        font-size: 18px;
+        padding: 0 8em;
+    }
+   
+    .cadastro__formulario-campo::placeholder{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .cadastro__formulario{
+        width: 552px;
+    }
+
+    .cadastro__formulario-campo--senha{
+        width: 362px;
+    }
+    .cadastro__formulario-campo::placeholder{
+        font-size: 16px;
+    }
+}

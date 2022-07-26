@@ -1,0 +1,109 @@
+body{
+    position: relative;
+    min-height: 100vh;
+}
+.perfil__formulario{
+    width: 86.66%;
+    height: 825px;
+    background: var(--cinza-claro);
+    border-radius: 10px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil__perfil{
+    color: var(--cinza-escuro);
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 30px auto 10px auto;
+}
+.perfil__foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil__usuario{
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.perfil__texto{
+    text-align: center;
+    padding: 0 60px;
+    margin-top: 80px;
+}
+.perfil__titulo--foto{
+    font-weight: 600;
+    margin: 10px 5% 0 5%;
+}
+.perfil__titulo{
+    font-weight: 600;
+    margin: 15px 5%;
+}
+
+.perfil__dados{
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil__campo{
+    box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    margin: 0 auto;
+}
+
+.perfil__mensagem{
+    width: 90%;
+    height: 172px;
+    box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    border: none;
+    margin: 0 auto;
+}
+
+.perfil__botao{
+    background-color: var(--vermelho);
+    color: #FFFFFF;
+    border-radius: 6px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    width: 148px;
+    height: 40px;
+    border: none;
+    margin: 35px auto 0 auto;
+}
+@media screen and (min-width:768px) {
+    body{
+        height: 1255px;
+    }
+    .perfil{
+        background-image: url(/img/Lateral-direita-splash.png);
+        background-position: right 0px top 150px;
+        background-size: 100px;
+        background-repeat: no-repeat;
+    }
+    .perfil__formulario{
+        height: 756px;
+        width: 552px;
+    }
+
+    .perfil__texto{
+        margin: 200px auto 0 auto;
+        font-size: 18px;
+        width: 620px;
+    }
+
+    .perfil__foto{
+        margin-bottom: 0px;
+    }
+    .perfil__mensagem{
+        height: 104px;
+    }
+}

@@ -1,0 +1,35 @@
+.cabecalho{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    padding-top: 2em;
+    padding-left: 3em;
+    box-sizing: border-box;
+
+}
+
+.cabecalho__home{
+    width: 19.2px;
+    height: 20px;
+}
+
+.cabecalho__email{
+    width: 23.15px;
+    height: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .cabecalho__logo{
+        width: 150px;
+        height: 30px;
+        background-image:url(/img/Logo-navbar.png) ;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .cabecalho{
+        width: 350px;
+    }
+
+    
+}

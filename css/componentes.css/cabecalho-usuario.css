@@ -1,0 +1,57 @@
+.header-usuario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__splash{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    width: 350px;
+}
+.cabecalho-usuario{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    padding-top: 2em;
+    padding-left: 3em;
+}
+
+.cabecalho__perfil-usuario{
+    margin-top: 2em;
+    margin-right: 3em;
+    width: 40px;
+}
+.cabecalho__home-usuario{
+    width: 19.2px;
+    height: 20px;
+}
+
+.cabecalho__email-usuario{
+    width: 23.15px;
+    height: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .cabecalho__logo{
+        width: 150px;
+        height: 30px;
+        background-image:url(/img/Logo-navbar.png) ;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .cabecalho-usuario{
+        width: 350px;
+    }
+    .cabecalho__splash{
+        width: 550px;
+    }
+    .cabecalho__perfil-usuario{
+        width: 48px;
+    }
+
+    
+}
