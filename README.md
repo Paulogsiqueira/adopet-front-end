@@ -24,7 +24,7 @@ O projeto teve como objetivo a prática de HTML,CSS e JavaScript, com uma propos
 <h2> Status do Projeto</h2>
 :construction: Projeto em Construção :construction:<br>
 Front-End :white_check_mark:<br>
-Back-End :x:
+
 
 <br>
 <br>
