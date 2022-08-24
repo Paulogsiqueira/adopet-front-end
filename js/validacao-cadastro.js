@@ -7,7 +7,6 @@ let listaEmail = [];
 
 botao.addEventListener('click', (evento) => {
     confirmarSenha(senha, confirmacao, evento)
-    evento.preventDefault();
     guardarCadastro(email, senha);
 
 })
