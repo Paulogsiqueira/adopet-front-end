@@ -75,9 +75,10 @@ body {
 }
 
 .home__imagem {
-    width: 50%;
+    width: 30%;
+    max-width: 500px;
     bottom: 80px;
-    left: 25%;
+    left: 35%;
     position: absolute;
 
 }
