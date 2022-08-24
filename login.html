@@ -29,13 +29,13 @@
         </div>
         <form class="login__formulario" action="/home.html">
             <label class="login__formulario-titulo">Email</label>
-            <input type="email" class="login__input" placeholder="Insira seu email" required>
+            <input type="email" class="login__input" id="login" placeholder="Insira seu email" required>
             <label class="login__formulario-titulo">Senha</label>
-            <input type="password" class="login__input senha visualizar" title="A senha deve conter no minimo 6 caracters, deve conter pelo menos uma letra maiúscula, uma letra minúscula e deve conter 1 caracter especial" pattern="^(?=.*[A-Z])(?=.*[!#@$%&])(?=.*[0-9])(?=.*[a-z]).{6,15}$" placeholder="Insira sua senha" required>
+            <input type="password" class="login__input senha visualizar" id="senha" title="A senha deve conter no minimo 6 caracters, deve conter pelo menos uma letra maiúscula, uma letra minúscula e deve conter 1 caracter especial" pattern="^(?=.*[A-Z])(?=.*[!#@$%&])(?=.*[0-9])(?=.*[a-z]).{6,15}$" placeholder="Insira sua senha" required>
         
             <div class="login__botoes">
                 <a class="login__senha">Esqueci minha senha</a>
-                <a href="/home.html"><button class="login__botao" type="submit">Entrar</button></a>
+                <button id="botao" class="login__botao" type="submit">Entrar</button>
             </div>
         </form>
     </main>
