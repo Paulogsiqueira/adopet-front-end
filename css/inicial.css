@@ -1,15 +1,16 @@
-body{
+body {
     background-color: var(--azul);
     background-image: url(/img/Superior-Home-Splash.png);
     background-repeat: no-repeat;
     background-size: 360px;
     color: #FFFFFF;
     position: relative;
-    min-height: 917px;
+    min-height: 150vh;
     height: 917px;
-    
+
 }
-.home{
+
+.home {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,43 +20,49 @@ body{
     background-repeat: no-repeat;
     background-position: top -15px right -20px;
     background-size: 100px;
-    
-    
+
+
 }
-.home__conteudo{
+
+.home__conteudo {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.home__logo{
+
+.home__logo {
     margin-bottom: 1.5rem;
     width: 190px;
 }
-.home__boasvindas{
+
+.home__boasvindas {
     font-size: 26px;
     font-weight: 500;
     line-height: 48px;
-    font-family:'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     align-items: center;
 }
-.home__texto{
+
+.home__texto {
     width: 69%;
     text-align: center;
     padding-left: 1em;
     padding-right: 1em;
     margin-bottom: 1.5em;
 }
-.home__botoes{
-    display:flex;
-    flex-direction:column;
+
+.home__botoes {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
     margin-bottom: 150px;
-    
+
 }
-.home__botao{
+
+.home__botao {
     background-color: var(--vermelho);
     color: #FFFFFF;
     border-radius: 6px;
@@ -66,35 +73,40 @@ body{
     border: 1px solid var(--azul);
     margin-bottom: 1em;
 }
-.home__imagem{
-    width: 247px;
-    margin-top: -130px;
-    position: relative;
-    
+
+.home__imagem {
+    width: 50%;
+    bottom: 80px;
+    left: 25%;
+    position: absolute;
+
 }
 
 @media screen and (min-width:768px) {
-    body{
+    body {
         background-size: 550px;
     }
-    
-    .home__texto{
+
+    .home__texto {
         font-size: 18px;
         line-height: 26px;
     }
-    .home__logo{
+
+    .home__logo {
         width: 250px;
         margin-bottom: 0.5rem;
     }
-    .home__botao{
+
+    .home__botao {
         font-size: 18px;
         width: 250px;
     }
 
-    .home{
+    .home {
         margin-top: 130px;
     }
-    .home__boasvindas{
+
+    .home__boasvindas {
         font-size: 28px;
     }
 }

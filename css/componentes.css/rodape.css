@@ -1,4 +1,4 @@
-.rodape{
+.rodape {
     height: 100px;
     display: flex;
     align-items: center;
@@ -12,7 +12,7 @@
 
 }
 
-.rodape__texto{
+.rodape__texto {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
